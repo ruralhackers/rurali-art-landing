@@ -39,7 +39,7 @@ export function Apply() {
           {apply.cohorts.map((cohort) => (
             <article
               key={cohort.id}
-              className="flex flex-col border-t border-bone-gray pt-20"
+              className="flex flex-col border-t border-pure-ink pt-20"
             >
               <p className="label-mono text-charcoal-press">
                 {cohort.edition} ● {cohort.label}
@@ -47,14 +47,22 @@ export function Apply() {
               <p className="mt-16 max-w-[18ch] text-display text-pure-ink">
                 {cohort.dates}
               </p>
-              <div className="mt-24">
+              <div className="mt-24 flex flex-col items-start gap-16">
                 <Button
                   href={cohort.formUrl}
                   variant="ink"
                   className="w-fit"
                 >
-                  {apply.ctaLabel} →
+                  Formulario {cohort.label} →
                 </Button>
+                <a
+                  href={cohort.formUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="break-all text-body-sm underline underline-offset-4 transition-opacity hover:opacity-60"
+                >
+                  {cohort.formUrl}
+                </a>
               </div>
             </article>
           ))}
