@@ -76,22 +76,10 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href={site.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="tel:+34610602012"
                     className="underline underline-offset-4 transition-opacity hover:opacity-60"
                   >
-                    ruralhackers.com
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={site.anceuUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline underline-offset-4 transition-opacity hover:opacity-60"
-                  >
-                    anceu.com
+                    610 602 012
                   </a>
                 </li>
                 <li className="label-mono text-charcoal-press">

@@ -236,7 +236,6 @@ export const apply = {
     "Motivación clara: mejorar productividad y procesos con IA, no solo generar obra con ella.",
     "Disponibilidad 7 días en Anceu: 19–25 octubre o 2–8 noviembre 2026.",
     "Respeto por la ética, el consentimiento y el trabajo con la comunidad local.",
-    "Ganas de documentar lo que funciona y aportar al toolkit abierto.",
   ],
   ctaLabel: "Inscribirme",
   cohorts: [
