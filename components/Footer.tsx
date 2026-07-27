@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { partners, site } from "@/content/site";
 
 export function Footer() {
@@ -19,17 +20,22 @@ export function Footer() {
               </a>
               , Galicia.
             </p>
-            <div className="mt-40 flex items-start gap-16">
-              <div
-                className="flex h-60 w-[140px] items-center justify-center rounded-[var(--radius-md)] border border-bone-gray bg-paper-white px-10"
-                aria-hidden
+            <div className="mt-40 flex flex-col gap-16 sm:flex-row sm:items-center">
+              <a
+                href="https://www.cultura.gob.es/cultura/industriasculturales/portada/imagen-institucional.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex shrink-0 items-center"
+                aria-label="Ministerio de Cultura — Imagen Institucional"
               >
-                <span className="text-center text-caption leading-tight">
-                  Logo Ministerio
-                  <br />
-                  de Cultura
-                </span>
-              </div>
+                <Image
+                  src="/logos/ministerio-cultura.png"
+                  alt="Logotipo del Ministerio de Cultura"
+                  width={560}
+                  height={280}
+                  className="h-auto w-[160px] max-w-full object-contain md:w-[200px]"
+                />
+              </a>
               <p className="max-w-xs text-body-sm">{site.ministryCredit}</p>
             </div>
           </div>

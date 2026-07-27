@@ -1,3 +1,0 @@
-# Placeholder for official Ministerio de Cultura logo.
-# Download from: https://www.cultura.gob.es/cultura/industriasculturales/portada.html
-# (Imagen Institucional) and replace this note with the official asset.

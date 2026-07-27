@@ -40,3 +40,4 @@ next-env.d.ts
 
 # source photo dumps (web assets live in public/images)
 /foto
+/tmp-logos-mcu
