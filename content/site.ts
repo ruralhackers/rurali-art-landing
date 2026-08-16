@@ -1,7 +1,7 @@
 export const site = {
   name: "RURALI-ART",
   org: "Rural Hackers",
-  email: "hello@ruralhackers.com",
+  email: "ana@ruralhackers.com",
   url: "https://ruralhackers.com",
   anceuUrl: "https://anceu.com",
   pegadasUrl: "https://linktr.ee/pegadas.do.recordo",
