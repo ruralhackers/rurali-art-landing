@@ -244,16 +244,14 @@ export const apply = {
       label: "Cohorte 1",
       edition: "ED1",
       dates: "19–25 octubre 2026",
-      formUrl:
-        "https://docs.google.com/forms/d/1YjcwoDTsIijASpyxDKM6sc3ViIOcB03ZeXSVVl3kxoA/viewform",
+      formUrl: "https://forms.gle/ryQwRzf43VykFWVY7",
     },
     {
       id: "ed2",
       label: "Cohorte 2",
       edition: "ED2",
       dates: "2–8 noviembre 2026",
-      formUrl:
-        "https://docs.google.com/forms/d/1cq1PXHuTXGB7VDx1UneptKmvzF4YhRhFGUZRXWroac0/viewform",
+      formUrl: "https://forms.gle/ryQwRzf43VykFWVY7",
     },
   ],
 } as const;
