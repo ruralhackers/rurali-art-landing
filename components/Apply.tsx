@@ -47,7 +47,7 @@ export function Apply() {
               <p className="mt-16 max-w-[18ch] text-display text-pure-ink">
                 {cohort.dates}
               </p>
-              <div className="mt-24 flex flex-col items-start gap-16">
+              <div className="mt-24 flex flex-col items-start">
                 <Button
                   href={cohort.formUrl}
                   variant="ink"
@@ -55,14 +55,6 @@ export function Apply() {
                 >
                   Formulario {cohort.label} →
                 </Button>
-                <a
-                  href={cohort.formUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="break-all text-body-sm underline underline-offset-4 transition-opacity hover:opacity-60"
-                >
-                  {cohort.formUrl}
-                </a>
               </div>
             </article>
           ))}
